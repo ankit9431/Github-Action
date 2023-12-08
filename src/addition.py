@@ -3,6 +3,6 @@
 def add(a, b):
     return a + b
 
-a=int(input())
-b=int(input())
-print(add(1,2)
+def test_add():
+    assert add(1, 2) == 3
+    assert add(1, -1) == 0
